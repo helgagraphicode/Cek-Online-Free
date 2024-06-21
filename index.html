@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Online By Habib</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div class="circuit-board">
+            <div class="circuit-line"></div>
+            <div class="circuit-line"></div>
+            <div class="circuit-line"></div>
+            <div class="circuit-line"></div>
+        </div>
+        <div class="loader-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="loader-text">Loading, please wait...</div>
+    </div>
+
+    <div id="content" style="display: none;">
+        <div class="container">
+            <h1>Cek Online</h1>
+            <p class="version">V 1.10</p>
+            <div class="button-container">
+                <button onclick="window.location.href = 'cekkhodam/index.html';">Khodam</button>
+                <button onclick="window.location.href = 'cekinisialjodoh/index.html';">Inisial Jodoh</button>
+                <button onclick="window.location.href = 'cekdosadanpahala/index.html';">Paha Dan Dosa</button>
+            </div>
+            <footer>
+                <p>website ini di support oleh HelgaGraphiCode</p>
+                <div id="trakteer-button"></div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.trakteer.id/js/embed/trbtn.min.js?date=18-11-2023"></script>
+    <script type="text/javascript">
+        (function(){
+            var trbtnId = trbtn.init('Dukung Saya di Trakteer','#be1e2d','https://trakteer.id/helga_graphicode','https://cdn.trakteer.id/images/embed/trbtn-icon.png?date=18-11-2023','40');
+            trbtn.draw(trbtnId);
+        })();
+    </script>
+</body>
+</html>
